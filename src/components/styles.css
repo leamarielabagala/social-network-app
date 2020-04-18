@@ -1,0 +1,23 @@
+.App {
+  padding: 2rem 10rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.UsersList {
+  padding: 2rem;
+}
+
+.PostList {
+  padding: 2rem;
+  width: 30rem;
+}
+
+.PostList label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.PostList .ui.card {
+  width: auto;
+}
