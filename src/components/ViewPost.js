@@ -49,7 +49,7 @@ class ViewPost extends React.Component {
           </Card.Content>
           <Card.Content extra>
             <Button fluid inverted color="red" as={Link} to={`/users/${post.userId}/posts`}>
-              Back to { user.name }'s' Posts
+              Back to { user.name }'s Posts
             </Button>
           </Card.Content>
         </Card>
