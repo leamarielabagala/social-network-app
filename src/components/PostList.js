@@ -18,7 +18,6 @@ class PostList extends React.Component {
   }
 
   componentDidUpdate(prevProps) {
-    console.log('props', prevProps.userId, this.props.userId);
     if (prevProps.userId !== this.props.userId && !isNaN(this.props.userId)) {
       this.props.fetchPosts(this.props.userId);
     }
